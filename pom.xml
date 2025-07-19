@@ -95,15 +95,15 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.3.243:9980/mithuntechnologies/repository/canarabank-releases/</url>
+	      <id>nexsusdeployment</id>
+	      <name>Aws devops training release</name>
+	      <url>http://54.152.118.116:8081/repository/webapplication-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.3.243:9980/mithuntechnologies/repository/canarabank-snapshot/</url>
+	      <id>nexsusdeployment</id>
+	      <name>Aws devops training snapshot</name>
+	      <url>http://54.152.118.116:8081/repository/webapplication-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
